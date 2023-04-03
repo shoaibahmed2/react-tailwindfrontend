@@ -9,7 +9,7 @@ const Body = () => {
   return (
     <div className="overflow-x-hidden overflow-y-hidden      ">
       <div
-        className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[black] w-[100%] h-[982px]"
+        className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[#1F2022] w-[100%] h-[982px]"
         style={{
           backgroundImage: `url(${Lady})`,
           backgroundSize: "contain",
