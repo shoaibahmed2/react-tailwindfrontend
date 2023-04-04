@@ -15,8 +15,8 @@ const Body = () => {
           backgroundSize: "contain",
         }}
       >
-        <div className="flex flex-col w-full sm:w-[50%] pt-[240px]   pl-[7%] gap-[18%] order-2 sm:order-1">
-          <div className="flex gap- pl-[4.4%]">
+        <div className="flex flex-col w-full sm:w-[50%] pt-[240px]   pl-[7%] gap-[18%] order-2 sm:order-1  ">
+          <div className="flex gap- pl-[%]">
             <img className="self-start" src={Dot} alt="" />
             <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px]  ">
               Pro <br /> photographer
@@ -38,10 +38,10 @@ const Body = () => {
                 Hello there, Nice to meet you. I am <br />
               </span>
 
-              <span className="font-Montserrat text text-[#00ADB5] max-sm:pl-[15%] font-extrabold text-xl max-sm:text-5xl sm:text-6xl    ">
+              <span className="font-Montserrat text text-[#00ADB5] max-sm:pl-[15%] font-extrabold max-sm:text-5xl sm:text-6xl lg:text-[100px]      ">
                 Jessie
                 <br />
-                <div className="font-poppins font-normal max-sm:pl-[15%] text-base leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
+                <div className="font-poppins font-normal  text-base max-sm:pl-[15%] sm:leading-[30px]  leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   <br />
                   amet sint. Velit officia consequat duis enim velit mollit.
@@ -52,13 +52,14 @@ const Body = () => {
               </span>
             </p>
           </div>
-          <div className="w-[500px] max-lg:w-[400px] max-w-full max-sm:ml-[35px]  ">
+          <div className="w-[100%] max-lg:w-[400px] max-md:w-[250px]  max-sm:ml-[35px]  ">
             <div className="flex justify-between mr-5 mb-4 font-bold ">
               <h1 className="text-white text-xl mb-">Latest Shots</h1>
-              <h1 className="text-lg max-md:hidden">view all</h1>
+              <h1 className="text-lg max-md:hidden  text-[#00ADB5]  ">
+                view all
+              </h1>
             </div>
-            {/* max-sm:bg-gray-500  lg:w-auto order-first lg:order-last */}
-            <div className="sm:max-w-[calc(100vw-3rem)] max-sm:pt-[15%] ">
+            <div className=" max-sm:pt-[15%]  w-[110%] pr-[60px] ">
               <Slider />
             </div>
           </div>
