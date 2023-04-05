@@ -15,33 +15,33 @@ const Body = () => {
           backgroundSize: "contain",
         }}
       >
-        <div className="flex flex-col w-full sm:w-[50%] pt-[240px]   pl-[7%] gap-[18%] order-2 sm:order-1  ">
+        <div className="flex flex-col w-full sm:w-[50%] pt-[308px]   pl-[68px] gap-[38%] order-2 sm:order-1   ">
           <div className="flex gap- pl-[%]">
-            <img className="self-start" src={Dot} alt="" />
-            <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px]  ">
+            <img className="self-start max-sm:hidden  " src={Dot} alt="" />
+            <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px] max-sm:hidden pl-[3px]   ">
               Pro <br /> photographer
             </p>
           </div>
-          <div className="flex pt-[12%] items-start ml font-montserrat    font-extrabold text-2xl leading-10 text-gray-200">
-            <div className="self-start pt-[1%]">
-              <img className="max-sm:hidden" src={line} alt="" />
+          <div className="flex pt-[12%] items-start   font-montserrat gap-3   font-extrabold text-2xl leading-10 text-gray-200">
+            <div className="self-start pt-[3%]  ">
+              <img className="max-sm:hidden    " src={line} alt="" />
             </div>
-            <div className="text-[#EEEEEE] text-[24px] max-sm:hidden ">
+            <div className="text-[#EEEEEE] text-[24px] max-sm:hidden  ">
               Let’s take your <br /> photographs to next level
             </div>
           </div>
         </div>
-        <div className="text-white   flex flex-col w-full sm:w-[50%] max-sm:justify-start gap-[224px] justify-center items-center lg:items-start order-1 sm:order-2">
+        <div className="text-white max-sm:mt-[-18%]  flex flex-col w-full sm:w-[50%] max-sm:justify-start gap-[245px] justify-center items-center lg:items-start order-1 sm:order-2   ">
           <div className="">
-            <p className="font-Poppins max-sm:ml-[-15%]  text-[#EEEEEE] font-medium  ">
-              <span className="max-sm:pl-[15%]">
+            <p className="font-Poppins max-sm:ml-[-15%]   text-[#EEEEEE] font-medium  ">
+              <span className="max-sm:pl-[30%] max-sm:flex    ">
                 Hello there, Nice to meet you. I am <br />
               </span>
 
-              <span className="font-Montserrat text text-[#00ADB5] max-sm:pl-[15%] font-extrabold max-sm:text-5xl sm:text-6xl lg:text-[100px]      ">
+              <span className="font-Montserrat text text-[#00ADB5] max-sm:pl-[30%] font-extrabold max-sm:text-5xl sm:text-6xl lg:text-[100px]      ">
                 Jessie
                 <br />
-                <div className="font-poppins font-normal  text-base max-sm:pl-[15%] sm:leading-[30px]  leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
+                <div className="font-poppins font-normal  text-base max-sm:pl-[29%]  sm:leading-[30px]  leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   <br />
                   amet sint. Velit officia consequat duis enim velit mollit.
