@@ -53,11 +53,11 @@ const MyFun = () => {
             <img src={Img2} className=" " alt="" />
           </h3>
         </div>
-        <div className="md:pr-[15px] ">
+        <div className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover">
           <h3>
             <img
-              className="w-[230px] h-[150px] object-cover "
               src={Img3}
+              className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover"
               alt=""
             />
           </h3>
