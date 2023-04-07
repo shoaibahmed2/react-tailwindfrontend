@@ -8,8 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Body = () => {
   return (
     <div className="overflow-x-hidden overflow-y-hidden      ">
-      <div
-        className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[#1F2022] w-[100%] h-[982px]"
+      <div         className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[#1F2022] w-[100%] h-[982px]"
         style={{
           backgroundImage: `url(${Lady})`,
           backgroundSize: "contain",
@@ -31,10 +30,10 @@ const Body = () => {
             </div>
           </div>
         </div>
-        <div className="text-white max-sm:mt-[-25%]  flex flex-col w-full sm:w-[50%] max-sm:justify-start gap-[245px] justify-center items-center lg:items-start order-1 sm:order-2   ">
+        <div className="text-white max-sm:mt-[-25%]  flex flex-col w-full sm:w-[50%] max-sm:justify-start gap-[280px] justify-center items-center lg:items-start order-1 sm:order-2 max-sm:pt[10px]  ">
           <div>
             <p className="font-Poppins max-sm:ml-[-15%]   text-[#EEEEEE] font-medium  ">
-              <span className="max-sm:pl-[30%] max-sm:flex    ">
+              <span className="max-sm:pl-[30%] max-sm:flex  max-sm:pt-[12%]    ">
                 Hello there, Nice to meet you. I am <br />
               </span>
 
@@ -52,16 +51,16 @@ const Body = () => {
               </span>
             </p>
           </div>
-          <div className="w-[100%] max-lg:w-[400px] max-md:w-[250px]  max-sm:ml-[35px] max-sm:m-t[40%] ">
+          <div className="w-[100%] max-lg:w-[400px] max-md:w-[250px]  max-sm:mr-[80px] max-sm:m-t[40%] ">
             <div className="flex justify-between mr-5 mb-4 font-bold  ">
-              <h1 className="text-white text-xl max-sm:pt-[25%] ">
+              <h1 className="text-white text-xl max-sm:pt-[25%] max-sm:pr-10  ">
                 Latest Shots
               </h1>
-              <h1 className="text-lg   text-[#00ADB5] max-sm:pt-14  ">
+              <h1 className="text-lg   text-[#00ADB5] max-sm:pt-14    ">
                 view all
               </h1>
             </div>
-            <div className=" max-sm:pt-[15%]  w-[110%] pr-[60px]  ">
+            <div className=" max-sm:pt-[15%]  w-[110%] pr-[60px]     ">
               <Slider />
             </div>
           </div>

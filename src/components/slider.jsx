@@ -53,15 +53,6 @@ const MyFun = () => {
             <img src={Img2} className=" " alt="" />
           </h3>
         </div>
-        <div className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover">
-          <h3>
-            <img
-              src={Img3}
-              className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover"
-              alt=""
-            />
-          </h3>
-        </div>
       </Slider>
       <div className="flex gap-[33.5px] pt-[26.12px]">
         <button onClick={() => slider?.current?.slickPrev()}>
