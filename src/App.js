@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#1F2022]" >
       <Header />
       <Body />
       {/* <Slider /> */}

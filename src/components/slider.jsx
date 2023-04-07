@@ -41,21 +41,25 @@ const MyFun = () => {
         <div className="md:pr-[15px] ">
           <img className="" src={Img1} alt="" />
         </div>
-        <div className="md:mr-10 md:pr-[15px]">
+        <div className="md:mr-10 md:pr-[15px] w-[230px] h-[150px] object-cover ">
           <h3>
             {" "}
             <img src={Img2} className="" alt="" />
           </h3>
         </div>
 
-        <div className="md:mr-5 md:pr-[15px]">
+        <div className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover  ">
           <h3>
             <img src={Img2} className=" " alt="" />
           </h3>
         </div>
         <div className="md:pr-[15px] ">
           <h3>
-            <img className=" " src={Img3} alt="" />
+            <img
+              className="w-[230px] h-[150px] object-cover "
+              src={Img3}
+              alt=""
+            />
           </h3>
         </div>
       </Slider>
