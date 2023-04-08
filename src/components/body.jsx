@@ -8,7 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 const Body = () => {
   return (
     <div className="overflow-x-hidden overflow-y-hidden      ">
-      <div         className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[#1F2022] w-[100%] h-[982px]"
+      <div
+        className="flex flex-col sm:flex-row pt-[151px] gap-[0%] bg-no-repeat bg-cover bg-center bg-[#1F2022] w-[100%] h-[982px]"
         style={{
           backgroundImage: `url(${Lady})`,
           backgroundSize: "contain",
@@ -33,14 +34,14 @@ const Body = () => {
         <div className="text-white max-sm:mt-[-25%]  flex flex-col w-full sm:w-[50%] max-sm:justify-start gap-[280px] justify-center items-center lg:items-start order-1 sm:order-2 max-sm:pt[10px]  ">
           <div>
             <p className="font-Poppins max-sm:ml-[-15%]   text-[#EEEEEE] font-medium  ">
-              <span className="max-sm:pl-[30%] max-sm:flex  max-sm:pt-[12%]    ">
+              <span className="max-sm:pl-[30%] max-sm:flex   max-sm:text-sm   ">
                 Hello there, Nice to meet you. I am <br />
               </span>
 
-              <span className="font-Montserrat text text-[#00ADB5] max-sm:pl-[30%] font-extrabold max-sm:text-5xl sm:text-6xl lg:text-[100px]      ">
+              <span className="font-Montserrat text text-[#00ADB5]   max-sm:pl-[30%] font-extrabold max-sm:text-3xl sm:text-6xl lg:text-[100px]      ">
                 Jessie
                 <br />
-                <div className="font-poppins font-normal  text-base max-sm:pl-[29%]  sm:leading-[30px]  leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
+                <div className="font-poppins font-normal  text-base max-sm:pl-[29%] max-sm:text-sm  sm:leading-[30px]  leading-30 tracking-tighter text-white opacity-60 lg:pr-[10%] max-lg:w-[80%]">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                   <br />
                   amet sint. Velit officia consequat duis enim velit mollit.

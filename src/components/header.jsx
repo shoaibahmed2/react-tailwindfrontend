@@ -12,8 +12,8 @@ const Header = () => {
           Jessie.{" "}
         </p>
 
-        <div className="  hidden  md:flex   max-lg:text-sm list-none space-x-4 py-[41px] font-Josefin Sans justify-center  sm:gap-1  gap-5 lg:gap-10">
-          <li className="text-cyan-500 text-lg  ">Portfolio</li>
+        <div className="  hidden  md:flex   max-lg:text-sm list-none space-x-4 py-[41px] font-Josefin Sans justify-center  sm:gap-[1px]  gap-5 lg:gap-10">
+          <li className="text-cyan-500 text-lg sm:text-sm ">Portfolio</li>
           <li>Blog</li>
           <li>Client reviews</li>
           <li>Contact me</li>
@@ -24,7 +24,7 @@ const Header = () => {
           </button>
         </div>
         <div className="sm:hidden flex " onClick={() => setToggle(!toggle)}>
-          <button className="bg-gray-200 rounded-[3px] py-[16px] px-[16px] text-lg  max-sm:text-[17px] whitespace-nowrap  max-sm:pl-[13px]   text-black font-bold max-sm:py-[8px] max-sm:mr-[4px]       ">
+          <button className="bg-gray-200 rounded-[3px] py-[16px] px-[16px] text-lg    max-sm:text-[17px] whitespace-nowrap  max-sm:pl-[13px]   text-black font-bold max-sm:py-[8px] max-sm:mr-[4px]       ">
             Schedule a call
           </button>
           <CiMenuBurger
