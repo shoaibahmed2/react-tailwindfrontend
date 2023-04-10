@@ -25,13 +25,20 @@ const Header = () => {
             <button>Contact me</button>
           </li>
         </div>
-        <div className=" max-sm:hidden   ">
-          <button className="bg-gray-200 rounded-[3px] py-[16px] px-[16px] text-lg  max-sm:text-[17px] whitespace-nowrap  max-sm:pl-[13px]   text-black font-bold max-sm:py-[8px] max-sm:mr-[4px]       ">
+        <div className=" max-md:hidden   ">
+          <button
+            className="bg-gray-200 rounded-[3px]  lg:text-lg  max-sm:text-[17px] md:text-[15px] 
+           
+               whitespace-nowrap    text-black font-bold       px-[16px] py-[16px]  "
+          >
             Schedule a call
           </button>
         </div>
-        <div className="sm:hidden flex " onClick={() => setToggle(!toggle)}>
-          <button className="bg-gray-200 rounded-[3px] py-[16px] px-[16px] text-lg    max-sm:text-[17px] whitespace-nowrap  max-sm:pl-[13px]   text-black font-bold max-sm:py-[8px] max-sm:mr-[4px]       ">
+        <div className="md:hidden flex " onClick={() => setToggle(!toggle)}>
+          <button
+            className="bg-gray-200 rounded-[3px] py-[16px] px-[16px] text-lg    max-sm:text-[12px] whitespace-nowrap  
+          max-sm:pl-[13px]   text-black font-bold max-sm:py-[5px] max-sm:mr-[4px]  max-md:mr-10 max-md:py-[10px]     "
+          >
             Schedule a call
           </button>
           <CiMenuBurger
@@ -42,7 +49,7 @@ const Header = () => {
       </div>
       <div>
         {toggle && (
-          <div className="sm:hidden   bg-[#1F2022] text-white font-Josefin Sans flex flex-col space-y-2 p-4    ">
+          <div className="sm:hidden   list-none   bg-[#1F2022] text-white font-Josefin Sans flex flex-col space-y-2 p-4    ">
             <li className="text-cyan-500  ">
               <button>Portfolio</button>
             </li>

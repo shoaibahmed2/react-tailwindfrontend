@@ -72,7 +72,7 @@ const MyFun = () => {
           </h3>
         </div>
       </Slider>
-      <div className="flex gap-[33.5px] pt-[26.12px]">
+      <div className="flex gap-[33.5px] pt-[26.12px] max-sm:pl-[55px] ">
         <button onClick={() => slider?.current?.slickPrev()}>
           <img src={leftfacearrow} alt="" />
         </button>
@@ -85,71 +85,3 @@ const MyFun = () => {
 };
 
 export default MyFun;
-
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import React, { useRef } from "react";
-// import Slider from "react-slick";
-// import Img1 from "../../src/images/image1.png";
-// import Img2 from "../../src/images/image2.png";
-// import Img3 from "../../src/images/image3.png";
-// import leftfacearrow from "../../src/images/leftfacearrow.svg";
-// import rightfacearrow from "../../src/images/rightfacearrow.svg";
-
-// const MyFun = () => {
-//   const slider = useRef(null);
-
-//   const NextArrow = ({ onClick }) => {
-//     return (
-//       <button className="next-arrow" onClick={onClick}>
-//         <img src={rightfacearrow} alt="" />
-//       </button>
-//     );
-//   };
-
-//   const PrevArrow = ({ onClick }) => {
-//     return (
-//       <button className="prev-arrow" onClick={onClick}>
-//         <img src={leftfacearrow} alt="" />
-//       </button>
-//     );
-//   };
-
-//   const settings = {
-//     dots: false,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     nextArrow: <NextArrow />,
-//     prevArrow: <PrevArrow />,
-//     responsive: [
-//       {
-//         breakpoint: 1100,
-//         settings: {
-//           slidesToShow: 2,
-//           slidesToScroll: 2,
-//           infinite: true,
-//           dots: true,
-//         },
-//       },
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           slidesToShow: 1,
-//           slidesToScroll: 1,
-//         },
-//       },
-//     ],
-//   };
-
-//   return (
-//     <div className=" ">
-//       <Slider ref={slider} {...settings}>
-//         {/* Your slider content */}
-//       </Slider>
-//     </div>
-//   );
-// };
-
-// export default MyFun;
