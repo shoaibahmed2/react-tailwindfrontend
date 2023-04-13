@@ -38,6 +38,13 @@ const MyFun = () => {
       {
         breakpoint: 768,
         settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
         },
@@ -45,34 +52,34 @@ const MyFun = () => {
     ],
   };
   return (
-    <div className=" ">
+    <div className="max-sm:pt-10">
       <Slider ref={slider} {...settings}>
-        <div className="md:pr-[15px] ">
-          <img className="" src={Img1} alt="" />
+        <div className="md:pr-[5px]  ">
+          <img className="max-md:w-[130%]" src={Img1} alt="" />
         </div>
-        <div className="md:mr-10 md:pr-[15px] w-[230px] h-[150px] object-cover ">
+        <div className="md:pr-[5px] ">
           <h3>
             {" "}
-            <img src={Img2} className="" alt="" />
+            <img className="max-md:w-[130%]" src={Img2} alt="" />
           </h3>
         </div>
-        <div className="md:pr-[15px] ">
-          <img className="" src={Img1} alt="" />
+        <div className="md:pr-[5px]  ">
+          <img className="max-md:w-[130%]" src={Img1} alt="" />
         </div>
-        <div className="md:mr-10 md:pr-[15px] w-[230px] h-[150px] object-cover ">
+        <div className="md:pr-[5px] ">
           <h3>
             {" "}
-            <img src={Img2} className="" alt="" />
+            <img src={Img2} className="max-md:w-[130%]" alt="" />
           </h3>
         </div>
 
-        <div className="md:mr-5 md:pr-[15px] w-[230px] h-[150px] object-cover  ">
+        <div className="md:pr-[5px] ">
           <h3>
-            <img src={Img2} className=" " alt="" />
+            <img src={Img2} className="max-md:w-[130%] " alt="" />
           </h3>
         </div>
       </Slider>
-      <div className="flex gap-[33.5px] pt-[26.12px] max-sm:pl-[55px] ">
+      <div className="sm:flex gap-[33.5px] max-sm:flex max-sm:gap-[20px] sm:pt-[26.12px]   ">
         <button onClick={() => slider?.current?.slickPrev()}>
           <img src={leftfacearrow} alt="" />
         </button>
