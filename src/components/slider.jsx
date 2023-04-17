@@ -52,21 +52,19 @@ const MyFun = () => {
     ],
   };
   return (
-    <div className="max-sm:pt-10">
+    <div className="max-sm:pt-10   ">
       <Slider ref={slider} {...settings}>
-        <div className="md:pr-[5px]  ">
+        <div className="md:mr-[5px]  ">
           <img className="max-md:w-[130%]" src={Img1} alt="" />
         </div>
-        <div className="md:pr-[5px] ">
-          <h3>
-            {" "}
-            <img className="max-md:w-[130%]" src={Img2} alt="" />
-          </h3>
+        <div className="md:mr-[5px]  ">
+          {" "}
+          <img className="max-md:w-[130%]" src={Img2} alt="" />
         </div>
-        <div className="md:pr-[5px]  ">
+        <div className="md:mr-[5px]  ">
           <img className="max-md:w-[130%]" src={Img1} alt="" />
         </div>
-        <div className="md:pr-[5px] ">
+        <div className="md:mr-[5px] ml-[5px] ">
           <h3>
             {" "}
             <img src={Img2} className="max-md:w-[130%]" alt="" />

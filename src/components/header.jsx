@@ -5,7 +5,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="bg-[#1F2022] text-white font-Josefin Sans     ">
+    <div className="bg-[#1F2022] text-white  font-josefin-sans ">
       <div className="mx-[80px]  max-sm:mx-[25px] flex justify-between items-center max-sm:flex max-sm:justify-items-stretch font-bold py-[25px]     ">
         <p className=" text-2xl max-sm:pl-[16px]  max-sm:justify-evenly  ">
           <button> Jessie. </button>
@@ -43,7 +43,11 @@ const Header = () => {
           </button>
         </div>
 
-        <CiMenuBurger className="md:hidden  max-sm:pl-[2%]" size={30}  onClick={() => setToggle(!toggle)} />
+        <CiMenuBurger
+          className="md:hidden  max-sm:pl-[2%]"
+          size={30}
+          onClick={() => setToggle(!toggle)}
+        />
       </div>
       <div>
         {toggle && (
