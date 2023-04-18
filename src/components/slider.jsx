@@ -23,7 +23,7 @@ const MyFun = () => {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -32,7 +32,7 @@ const MyFun = () => {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -77,7 +77,7 @@ const MyFun = () => {
           </h3>
         </div>
       </Slider>
-      <div className="sm:flex gap-[33.5px] max-sm:flex max-sm:gap-[20px] sm:pt-[26.12px]   ">
+      <div className="sm:flex gap-[33.5px] max-sm:flex max-sm:gap-[20px] sm:pt-[26.12px] pb-[46px]   ">
         <button onClick={() => slider?.current?.slickPrev()}>
           <img src={leftfacearrow} alt="" />
         </button>

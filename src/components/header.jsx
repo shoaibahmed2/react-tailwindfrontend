@@ -8,28 +8,28 @@ const Header = () => {
     <div className="bg-[#1F2022] text-white  font-josefin-sans ">
       <div className="mx-[80px]  max-sm:mx-[25px] flex justify-between items-center max-sm:flex max-sm:justify-items-stretch font-bold py-[25px]     ">
         <p className=" text-2xl max-sm:pl-[16px]  max-sm:justify-evenly  ">
-          <button> Jessie. </button>
+          <button className="text-2xl"> Jessie. </button>
         </p>
 
         <div className="  hidden  md:flex   max-lg:text-sm list-none space-x-4   font-Josefin Sans justify-center  sm:gap-[1px]  gap-5 lg:gap-10">
           <li className="text-cyan-500 text-lg sm:text-sm ">
-            <button>Portfolio</button>
+            <button className="text-lg">Portfolio</button>
           </li>
           <li>
-            <button>Blog</button>
+            <button className="text-lg">Blog</button>
           </li>
           <li>
-            <button>Client reviews</button>
+            <button className="text-lg">Client reviews</button>
           </li>
           <li>
-            <button>Contact me</button>
+            <button className="text-lg">Contact me</button>
           </li>
         </div>
         <div className=" max-md:hidden   ">
           <button
             className="bg-gray-200 rounded-[3px]  lg:text-lg  max-sm:text-[17px] md:text-[15px]
 
-               whitespace-nowrap    text-black font-bold    max-xl:py-[6px] max-xl:px-[8px]     px-[16px] py-[16px] max-md:py-[8px]   "
+               whitespace-nowrap    text-black font-bold    max-xl:py-[6px] max-xl:px-[8px]   text-lg px-[16px] py-[16px] max-md:py-[8px]   "
           >
             Schedule a call
           </button>

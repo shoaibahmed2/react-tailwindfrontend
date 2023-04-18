@@ -17,15 +17,15 @@ const Body = () => {
         }}
       >
         <div className="flex flex-col w-full sm:w-[50%] pt-[275px] max-sm:pt-[1px]   pl-[68px] gap-[38%] order-2 sm:order-1 max-sm:hidden   ">
-          <div className="flex gap- pl-[%]">
+          <div className="flex ">
             <img className="self-start   " src={Dot} alt="" />
             <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px]  pl-[3px]   ">
               Pro <br /> photographer
             </p>
           </div>
-          <div className="flex pt-[12%] items-start   font-montserrat gap-3   font-extrabold text-2xl leading-10 text-gray-200">
-            <div className="self-start pt-[3%]  ">
-              <img className="    " src={line} alt="" />
+          <div className="flex pt-[18%] items-start   font-montserrat gap-3   font-extrabold text-2xl leading-10 text-gray-200">
+            <div className="self-start pt-[2%]  ">
+              <img src={line} alt="" />
             </div>
             <div className="text-[#EEEEEE] text-[24px]    pb-[20px] ">
               Let’s take your <br /> photographs to next level
@@ -45,10 +45,11 @@ const Body = () => {
               <span className="font-Montserrat text text-[#00ADB5] max-sm:justify-   leading-[121.9px] max-sm:pl-[20%] font-extrabold max-sm:text-3xl sm:text-6xl lg:text-[100px]      ">
                 Jessie
                 <br />
-                <div className="font-poppins w-[550px]  font-normal  text-base max-sm:pl-[20%] max-sm:text-md  sm:leading-[30px]  leading-[30px] tracking-wider text-white opacity-50   max-lg:w-[80%] max-sm:w-[90%] ">
+                <div className="font-poppins w-[560px]  font-normal pt-[18px]  text-base max-sm:pl-[20%] max-sm:text-md  sm:leading-[30px]  leading-[30px] tracking-wider text-white opacity-50   max-lg:w-[80%] max-sm:w-[90%] ">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do{" "}
-                  amet sint. Velit officia consequat duis enim velit mollit.{" "}
+                  amet sint. Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet. Amet minim{" "}
+                  <br />
                   mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                 </div>
               </span>
@@ -62,7 +63,7 @@ const Body = () => {
                   src={Dot}
                   alt=""
                 />
-                <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px] pl-[3px] max-sm:text-sm max-sm:pr-[110px] ">
+                <p className="font-montserrat font-extrabold text-2xl leading-7 tracking-tighter text-[#00ADB5] pt-[20px] pl-[3px] max-sm:text-sm max-sm:pr-[90px] ">
                   Pro <br /> photographer
                 </p>
               </div>
@@ -70,7 +71,7 @@ const Body = () => {
                 <div className="self-start pt-[3%]  ">
                   <img className=" max-sm:hidden     " src={line} alt="" />
                 </div>
-                <div className="text-[#EEEEEE] text-[24px]  idden  pb-[20px] max-sm:text-sm max-sm:pr-[20px] ">
+                <div className="text-[#EEEEEE] text-[24px]  idden  pb-[10px] max-sm:text-sm max-sm:pr-[8px] ">
                   Let’s take your <br /> photographs to next level
                 </div>
               </div>
@@ -78,11 +79,11 @@ const Body = () => {
           </div>
 
           <div className="w-[100%] max-lg:w-[400px] max-md:w-[260px]   max-sm:w-[83%]   ">
-            <div className="flex !justify-between   w-full    font-bold max-sm:justify-start     ">
-              <h1 className="text-white text-xl   max-sm:text-xs ">
+            <div className="flex !justify-between   w-full    font-bold max-sm:justify-start font-josefin-sans  leading-[24px]  ">
+              <h1 className="text-white text-2xl   max-sm:text-xs  ">
                 Latest Shots
               </h1>
-              <h1 className=" font-semibold text-base max-sm:text-xs font-montserrat text-[#00ADB5] sm:pr-[30px] max-sm:pl-10 pb-[23px]  ">
+              <h1 className=" font-semibold font-montserrat  max-sm:text-xs leading-[17px]  text-[#00ADB5] sm:pr-[30px] max-sm:pl-10 pb-[23px]  text-sm ">
                 view all
               </h1>
             </div>
