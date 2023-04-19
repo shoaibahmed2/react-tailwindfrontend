@@ -23,7 +23,7 @@ const Body = () => {
               Pro <br /> photographer
             </p>
           </div>
-          <div className="flex pt-[18%] items-start   font-montserrat gap-3   font-extrabold text-2xl leading-10 text-gray-200">
+          <div className="flex pt-[12.3%] items-start   font-montserrat gap-3   font-extrabold text-2xl leading-10 text-gray-200">
             <div className="self-start pt-[2%]  ">
               <img src={line} alt="" />
             </div>
@@ -33,7 +33,7 @@ const Body = () => {
           </div>
         </div>
         <div
-          className="text-white gap-[224px]   max-sm:gap-[10px] flex flex-col w-full sm:w-[50%] max-sm:justify-start     
+          className="text-white gap-[180px]   max-sm:gap-[10px] flex flex-col w-full sm:w-[50%] max-sm:justify-start     
         justify-center items-center lg:items-start order-1 sm:order-2   "
         >
           <div className="">
